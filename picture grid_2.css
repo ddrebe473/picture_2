@@ -1,0 +1,150 @@
+.picture_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 2fr 4fr 3fr 2fr 2fr 2fr;
+  grid-template-areas:
+    "logo logo logo logo logo"
+    "facebook mask_2 mask_3 mask_3 mask"
+    "twiter mask_2 mask_3 mask_3 mask"
+    "tiger tiger joker clown pink"
+    "suit super_hero super_hero candy pirate"
+    "suit santa letter letter free"
+    "props santa ghost wolf goblin"
+    "mask_2 mask_3 mask_3 . .";
+}
+div {
+  /* border: 2px solid rgb(91, 91, 91); */
+  color: black;
+  font-size: 20px;
+  margin: 2px;
+}
+.border {
+  border: 20px solid grey;
+}
+.navbar {
+  background-color: hotpink;
+}
+.twitter {
+  grid-area: twitter;
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.facebook {
+  grid-area: facebook;
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.tiger {
+  grid-area: tiger;
+
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.pirate {
+  grid-area: pirate;
+  grid-column: 5/6;
+  grid-row: 5/6;
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.suit {
+  grid-area: suit;
+
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.logo {
+  grid-area: logo;
+
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.joker {
+  grid-area: joker;
+
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.clown {
+  grid-area: clown;
+
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.pink {
+  grid-area: pink;
+  grid-column: 5/6;
+  grid-row: 4/5;
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.letter {
+  grid-area: letter;
+
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.mask_2 {
+  grid-area: mask_2;
+
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.mask_3 {
+  grid-area: mask_3;
+
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.wolf {
+  grid-area: wolf;
+
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.goblin {
+  grid-area: goblin;
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.ghost {
+  grid-area: ghost;
+
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.free {
+  grid-area: free;
+
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.super_hero {
+  grid-area: super_hero;
+
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.santa {
+  grid-area: santa;
+
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.candy {
+  grid-area: candy;
+
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.prop {
+  grid-area: props;
+
+  justify-items: center;
+  justify-content: Space-evenly;
+}
+.mask {
+  grid-area: mask;
+  justify-items: center;
+  justify-content: Space-evenly;
+}
