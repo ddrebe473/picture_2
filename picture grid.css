@@ -9,9 +9,10 @@
     "tiger tiger joker clown pink"
     "suit super_hero super_hero candy pirate"
     "suit santa letter letter free"
-    "props santa ghost wolf goblin"
+    "prop santa ghost wolf goblin"
     "mask_2 mask_3 mask_3 . .";
 }
+
 div {
   /* border: 2px solid rgb(91, 91, 91); */
   color: black;
@@ -138,7 +139,7 @@ div {
   justify-content: Space-evenly;
 }
 .prop {
-  grid-area: props;
+  grid-area: prop;
 
   justify-items: center;
   justify-content: Space-evenly;
@@ -147,4 +148,20 @@ div {
   grid-area: mask;
   justify-items: center;
   justify-content: Space-evenly;
+}
+
+@media (max-width: 400px) {
+  .picture {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr 4fr 3fr 2fr 2fr 2fr;
+    grid-template-areas:
+      "logo logo logo logo logo"
+      "facebook mask_2 mask_3 mask_3 mask"
+      "twitter maks_2 mask_3 maks_3 mask"
+      "tiger tiger joker clown pink"
+      "suit super_hero super_hero candy pirate"
+      "suit santa letter letter free"
+      "prop santa ghost wolf goblin";
+  }
 }
