@@ -150,7 +150,7 @@ div {
   justify-content: Space-evenly;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
   .picture {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
